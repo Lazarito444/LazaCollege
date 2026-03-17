@@ -8,6 +8,9 @@
   </Folder>
   <Folder Name="/src/">
     <Project Path="LazaCollege.Api/LazaCollege.Api.csproj" />
+    <Project Path="LazaCollege.Application/LazaCollege.Application.csproj" />
+    <Project Path="LazaCollege.Data/LazaCollege.Data.csproj" />
+    <Project Path="LazaCollege.Domain/LazaCollege.Domain.csproj" />
   </Folder>
   <Folder Name="/Tests/" />
 </Solution>
