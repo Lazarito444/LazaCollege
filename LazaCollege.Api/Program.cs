@@ -1,6 +1,8 @@
+using LazaCollege.Api.Extensions;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddOpenApi();
+builder.Services.SetupApi();
 
 WebApplication app = builder.Build();
 
